@@ -1,21 +1,22 @@
 ---
-#title: Python for Non-Programmers
-#author: Ahmad Nadeem
-#date: "`r Sys.Date()`"
-#output:
-#  prettydoc::html_pretty:
-#      toc: true
-#      toc_depth: 2
-#      number_sections: true
-#      theme: architect
-#      highlight: github
-#PrettyDoc hpstr  leonids  tectile  cayman  architect
-
 title: "Python for Non-Programmers"
 author: "Ahmad Nadeem"
 date: "`r Sys.Date()`"
-output: rmdformats::readthedown  #html_clean,html_docco, material,readthedown
-use_bookdown: c(TRUE, FALSE)[1]
+output:
+  rmdformats::readthedown:
+    fig_width: 8
+    fig_height: 5
+    fig_caption: TRUE
+    highlight: "kate"
+    lightbox: TRUE
+    thumbnails: TRUE
+    gallery: TRUE
+    toc_depth: 3
+    embed_fonts: TRUE
+    use_bookdown: TRUE
+    pandoc_args: NULL
+    md_extensions: NULL
+    mathjax: "rmdformats"
 ---
 
 ```{r setup, include=FALSE}
