@@ -26,6 +26,13 @@ knitr::opts_chunk$set(
 library(reticulate)
 ```
 
+```{r klippy, echo=FALSE, include=TRUE}
+klippy::klippy(
+    lang     = c('r', 'python')
+  , position = c('top', 'right')
+  )
+```
+
 ```{r, child='01.Introduction.Rmd', eval = FALSE}
 
 ```
