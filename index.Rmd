@@ -15,10 +15,14 @@ title: "Python for Non-Programmers"
 author: "Ahmad Nadeem"
 date: "`r Sys.Date()`"
 output: rmdformats::readthedown  #html_clean,html_docco, material,readthedown
+use_bookdown: c(TRUE, FALSE)[1]
 ---
 
-```{r setup, include=FALSE, cache=TRUE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+    comment = NA
+  , echo = TRUE
+  )
 library(reticulate)
 ```
 
