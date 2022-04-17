@@ -34,7 +34,7 @@ klippy::klippy(
   )
 ```
 
-```{r, child='01.Introduction.Rmd', eval = FALSE}
+```{r, child='01.Introduction.Rmd', eval = TRUE}
 
 ```
 
